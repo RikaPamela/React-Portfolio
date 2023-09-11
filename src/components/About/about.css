@@ -1,0 +1,71 @@
+/* AboutMe.css */
+.about-me {
+    max-width: 800px; /* Adjust the maximum width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px; /* Add some padding for spacing */
+  }
+  
+  .skills {
+    display: flex; /* Display the skill cards in a row */
+    justify-content: space-between; /* Space them evenly */
+  }
+  
+  .skill-card {
+    flex: 1; /* Each skill card takes equal space */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: bisque;
+  }
+  
+  .skill-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skill-card ul li {
+    margin: 5px 0;
+  }
+  
+  
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .service-card {
+    background-color: bisque;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1;
+    max-width: calc(33.33% - 20px); /* Adjust card width based on the number of cards per row */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px); /* Add a slight hover effect to lift the card */
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
