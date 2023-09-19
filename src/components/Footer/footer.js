@@ -1,7 +1,5 @@
-// Footer.js (Create a new component for the footer)
-
 import React from 'react';
-import './footer.css'; // Create a CSS file for styling the footer
+import './footer.css';
 
 function Footer() {
   return (
